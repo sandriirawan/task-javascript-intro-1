@@ -74,8 +74,10 @@ rata2();
 // ---------------------------------------------------------------
 
 // no3
-const printSegitiga = 5
-const cekNumber = typeof printSegitiga === "number" ? "true" : "false";
+const printSegitiga = "sa"
+if(typeof printSegitiga !== "number"){
+    console.log("data harus angka");
+}
 for(let i = printSegitiga; i >= 1; i--){
     let output = " " ;
     for (let x = 1; x <= i; x++){
@@ -83,6 +85,7 @@ for(let i = printSegitiga; i >= 1; i--){
     }
     console.log(output);
 }
+
 
 
 // ---------------------------------------------------------------
