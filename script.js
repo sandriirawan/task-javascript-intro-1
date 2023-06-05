@@ -1,5 +1,4 @@
-// no1
-
+// // no1
 const biodata = {
     name: "sandri irawan",
     age: 21,
@@ -42,9 +41,9 @@ const biodata = {
 console.log(biodata);
 
 
-// ---------------------------------------------------------------
+// // ---------------------------------------------------------------
 
-// no2
+// // no2
 const mtk = 80
 const bahasaIndonesia = 90
 const bahasaInggris = 89
@@ -74,8 +73,9 @@ rata2();
 
 // ---------------------------------------------------------------
 
-no3
+// no3
 const printSegitiga = 5
+const cekNumber = typeof printSegitiga === "number" ? "true" : "false";
 for(let i = printSegitiga; i >= 1; i--){
     let output = " " ;
     for (let x = 1; x <= i; x++){
@@ -84,9 +84,10 @@ for(let i = printSegitiga; i >= 1; i--){
     console.log(output);
 }
 
+
 // ---------------------------------------------------------------
 
-no4
+// no4
 let data = {
     id: 1,
     name: "Leanne Graham",
